@@ -70,8 +70,7 @@ def list_iterator():
 
 if __name__ == '__main__':
     # actor_iterator()
-    list_iterator()
-    # main('https://www.javbus.com/search/ASUKA/8')
-    # main('https://www.javbus.com/search/')
+    # list_iterator()
+    main('https://www.javbus.com/page')
 
 

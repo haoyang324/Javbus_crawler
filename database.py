@@ -3,9 +3,9 @@
 
 import pymysql.cursors
 import re
+import config
 
-connection = pymysql.connect(host='47.254.83.13', user='javbus', password='whywhy', db='javbus', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-
+connection = config.connection
 
 def write_data(dict_jav, censored):
     
