@@ -1,2 +1,6 @@
 *.pyc
 config.py
+.DS_Store
+*.pyc
+*.pyc
+.vscode/settings.json
